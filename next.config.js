@@ -1,6 +1,6 @@
 // Need to transpile typescript from shared workspace
 const withTM = require('next-transpile-modules')([
-  '@client/shared',
+  '@client/memory-cards/shared',
 ]);
 
 /** @type {import('next').NextConfig} */
